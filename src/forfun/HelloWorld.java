@@ -9,6 +9,8 @@ import java.util.Random;
 public class HelloWorld {
     public static void main(String[] args) {
 
+        System.out.println(0%10);
+
         ArrayList<Integer> index;
 
         int[] intArray = {13, 15, 8, 20, 17, 9};

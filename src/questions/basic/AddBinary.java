@@ -10,3 +10,4 @@ public class AddBinary {
         System.out.println("Binary addition : "+ b);
     }
 }
+

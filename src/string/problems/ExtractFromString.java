@@ -1,6 +1,5 @@
 package string.problems;
 
-import org.jetbrains.annotations.NotNull;
 
 public class ExtractFromString {
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class ExtractFromString {
         }
 
     }
-    public static void bubbleSort(int @NotNull [] elements){
+    public static void bubbleSort(int[] elements){
         for(int i=0; i<elements.length; i++){
             boolean flag = true;
             for(int j=0; j<elements.length-1-i; j++){
